@@ -19,8 +19,7 @@ const fibonacci = (() => {
         ])
     }
 
-    console.log("Iteration: ", fibs(8))
-    console.log("Recursion:", fibsRec(8))
+    return { fibs, fibsRec }
 })()
 
 export default fibonacci
